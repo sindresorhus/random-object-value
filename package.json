@@ -1,0 +1,38 @@
+{
+  "name": "random-obj-prop",
+  "version": "0.0.0",
+  "description": "Get a random property from an object",
+  "license": "MIT",
+  "repository": "sindresorhus/random-obj-prop",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "rand",
+    "random",
+    "randomize",
+    "math",
+    "object",
+    "obj",
+    "property",
+    "prop",
+    "pick",
+    "select",
+    "choice"
+  ],
+  "devDependencies": {
+    "ava": "0.0.4",
+    "stable-fn": "^1.0.0"
+  }
+}
