@@ -6,17 +6,17 @@
 ## Install
 
 ```
-$ npm install --save random-obj-prop
+$ npm install random-obj-prop
 ```
 
 
 ## Usage
 
 ```js
-var randomObjProp = require('random-obj-prop');
+const randomObjProp = require('random-obj-prop');
 
-randomObjProp({foo: 'pony', bar: 'unicorn'});
-//=> 'unicorn'
+randomObjProp({foo: '🐴', bar: '🦄'});
+//=> '🦄'
 ```
 
 

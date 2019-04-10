@@ -1,6 +1,6 @@
 import test from 'ava';
 import stableFn from 'stable-fn';
-import fn from './';
+import randomObjProp from '.';
 
 const fixture = {
 	foo: 'a',
@@ -9,10 +9,10 @@ const fixture = {
 	faz: 'd'
 };
 
-test(t => {
-	t.false(stableFn(() => fn(fixture)));
+test('main', t => {
+	t.false(stableFn(() => randomObjProp(fixture)));
 
 	for (let i = 0; i < 1000; i++) {
-		t.is(typeof fn(fixture), 'string');
+		t.is(typeof randomObjProp(fixture), 'string');
 	}
 });

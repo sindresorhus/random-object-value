@@ -1,38 +1,41 @@
 {
-  "name": "random-obj-prop",
-  "version": "1.0.0",
-  "description": "Get a random property from an object",
-  "license": "MIT",
-  "repository": "sindresorhus/random-obj-prop",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "rand",
-    "random",
-    "randomize",
-    "math",
-    "object",
-    "obj",
-    "property",
-    "prop",
-    "pick",
-    "select",
-    "choice"
-  ],
-  "devDependencies": {
-    "ava": "*",
-    "stable-fn": "^1.0.0"
-  }
+	"name": "random-obj-prop",
+	"version": "1.0.0",
+	"description": "Get a random property from an object",
+	"license": "MIT",
+	"repository": "sindresorhus/random-obj-prop",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava && tsd"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"rand",
+		"random",
+		"randomize",
+		"math",
+		"object",
+		"obj",
+		"property",
+		"prop",
+		"pick",
+		"select",
+		"choice"
+	],
+	"devDependencies": {
+		"ava": "^1.4.1",
+		"stable-fn": "^1.0.0",
+		"tsd": "^0.7.2",
+		"xo": "^0.24.0"
+	}
 }
