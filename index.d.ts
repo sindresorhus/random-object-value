@@ -9,6 +9,6 @@ randomObjProp({foo: '🐴', bar: '🦄'});
 //=> '🦄'
 ```
 */
-declare function randomObjProp<T>(input: { [key: string]: T }): T;
+declare function randomObjProp<T>(object: {[key: string]: T}): T;
 
 export = randomObjProp;

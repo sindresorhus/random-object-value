@@ -33,4 +33,4 @@ randomObjProp({foo: '🐴', bar: '🦄'});
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
