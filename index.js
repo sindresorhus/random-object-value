@@ -1,5 +1,5 @@
 'use strict';
-module.exports = function (obj) {
-	var keys = Object.keys(obj);
-	return obj[keys[Math.floor(Math.random() * keys.length)]];
+module.exports = object => {
+	const keys = Object.keys(object);
+	return object[keys[Math.floor(Math.random() * keys.length)]];
 };
