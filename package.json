@@ -1,6 +1,6 @@
 {
 	"name": "random-obj-prop",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"description": "Get a random property from an object",
 	"license": "MIT",
 	"repository": "sindresorhus/random-obj-prop",
