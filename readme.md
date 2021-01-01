@@ -1,4 +1,4 @@
-# random-obj-prop [![Build Status](https://travis-ci.org/sindresorhus/random-obj-prop.svg?branch=master)](https://travis-ci.org/sindresorhus/random-obj-prop)
+# random-obj-prop
 
 > Get a random property from an object
 
