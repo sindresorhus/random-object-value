@@ -1,4 +1,4 @@
 import {expectType} from 'tsd';
-import randomObjProp = require('.');
+import randomObjectProperty from './index.js';
 
-expectType<string | number>(randomObjProp({foo: '🐴', bar: 1}));
+expectType<string | number>(randomObjectProperty({foo: '🐴', bar: 1}));

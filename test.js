@@ -1,18 +1,18 @@
 import test from 'ava';
-import stableFn from 'stable-fn';
-import randomObjProp from '.';
+import stableFunction from 'stable-fn';
+import randomObjectProperty from './index.js';
 
 const fixture = {
 	foo: 'a',
 	bar: 'b',
 	baz: 'c',
-	faz: 'd'
+	faz: 'd',
 };
 
 test('main', t => {
-	t.false(stableFn(() => randomObjProp(fixture)));
+	t.false(stableFunction(() => randomObjectProperty(fixture)));
 
-	for (let i = 0; i < 1000; i++) {
-		t.is(typeof randomObjProp(fixture), 'string');
+	for (let index = 0; index < 1000; index++) {
+		t.is(typeof randomObjectProperty(fixture), 'string');
 	}
 });

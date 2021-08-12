@@ -3,12 +3,10 @@ Get a random property from an object.
 
 @example
 ```
-import randomObjProp = require('random-obj-prop');
+import randomObjectProperty from 'random-obj-prop';
 
-randomObjProp({foo: '🐴', bar: '🦄'});
+randomObjectProperty({foo: '🐴', bar: '🦄'});
 //=> '🦄'
 ```
 */
-declare function randomObjProp<T>(object: {[key: string]: T}): T;
-
-export = randomObjProp;
+export default function randomObjectProperty<T>(object: Record<string, T>): T;

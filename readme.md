@@ -2,23 +2,20 @@
 
 > Get a random property from an object
 
-
 ## Install
 
 ```
 $ npm install random-obj-prop
 ```
 
-
 ## Usage
 
 ```js
-const randomObjProp = require('random-obj-prop');
+import randomObjectProperty from 'random-obj-prop';
 
-randomObjProp({foo: '🐴', bar: '🦄'});
+randomObjectProperty({foo: '🐴', bar: '🦄'});
 //=> '🦄'
 ```
-
 
 ## Related
 
@@ -29,8 +26,3 @@ randomObjProp({foo: '🐴', bar: '🦄'});
 - [unique-random](https://github.com/sindresorhus/unique-random) - Generate random numbers that are consecutively unique
 - [unique-random-array](https://github.com/sindresorhus/unique-random-array) - Get consecutively unique elements from an array
 - [crypto-random-string](https://github.com/sindresorhus/crypto-random-string) - Generate a cryptographically strong random string
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
