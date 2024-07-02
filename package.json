@@ -1,9 +1,9 @@
 {
-	"name": "random-obj-prop",
+	"name": "random-object-value",
 	"version": "3.0.0",
-	"description": "Get a random property from an object",
+	"description": "Get a random value from an object",
 	"license": "MIT",
-	"repository": "sindresorhus/random-obj-prop",
+	"repository": "sindresorhus/random-object-value",
 	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",

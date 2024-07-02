@@ -1,6 +1,6 @@
 import test from 'ava';
 import stableFunction from 'stable-function';
-import randomObjectProperty from './index.js';
+import randomObjectValue from './index.js';
 
 const fixture = {
 	foo: 'a',
@@ -10,9 +10,9 @@ const fixture = {
 };
 
 test('main', t => {
-	t.false(stableFunction(() => randomObjectProperty(fixture)));
+	t.false(stableFunction(() => randomObjectValue(fixture)));
 
 	for (let index = 0; index < 1000; index++) {
-		t.is(typeof randomObjectProperty(fixture), 'string');
+		t.is(typeof randomObjectValue(fixture), 'string');
 	}
 });

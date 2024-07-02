@@ -1,12 +1,12 @@
 /**
-Get a random property from an object.
+Get a random value from an object.
 
 @example
 ```
-import randomObjectProperty from 'random-obj-prop';
+import randomObjectValue from 'random-object-value';
 
-randomObjectProperty({foo: '🐴', bar: '🦄'});
+randomObjectValue({foo: '🐴', bar: '🦄'});
 //=> '🦄'
 ```
 */
-export default function randomObjectProperty<T>(object: Record<string, T>): T;
+export default function randomObjectValue<T>(object: Record<string, T>): T;

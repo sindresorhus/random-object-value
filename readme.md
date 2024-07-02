@@ -1,19 +1,19 @@
-# random-obj-prop
+# random-object-value
 
-> Get a random property from an object
+> Get a random value from an object
 
 ## Install
 
 ```sh
-npm install random-obj-prop
+npm install random-object-value
 ```
 
 ## Usage
 
 ```js
-import randomObjectProperty from 'random-obj-prop';
+import randomObjectValue from 'random-object-value';
 
-randomObjectProperty({foo: '🐴', bar: '🦄'});
+randomObjectValue({foo: '🐴', bar: '🦄'});
 //=> '🦄'
 ```
 
