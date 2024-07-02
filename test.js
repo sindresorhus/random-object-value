@@ -1,5 +1,5 @@
 import test from 'ava';
-import stableFunction from 'stable-fn';
+import stableFunction from 'stable-function';
 import randomObjectProperty from './index.js';
 
 const fixture = {

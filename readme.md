@@ -4,8 +4,8 @@
 
 ## Install
 
-```
-$ npm install random-obj-prop
+```sh
+npm install random-obj-prop
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ randomObjectProperty({foo: '🐴', bar: '🦄'});
 
 ## Related
 
-- [random-obj-key](https://github.com/sindresorhus/random-obj-key) - Get a random key from an object
+- [random-object-key](https://github.com/sindresorhus/random-object-key) - Get a random key from an object
 - [random-int](https://github.com/sindresorhus/random-int) - Generate a random integer
 - [random-float](https://github.com/sindresorhus/random-float) - Generate a random float
 - [random-item](https://github.com/sindresorhus/random-item) - Get a random item from an array
